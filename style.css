@@ -2226,3 +2226,25 @@ body.light-mode .gallery-btn {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(212, 175, 55, 0.25);
 }
+/* FIX PROJECT IMAGE DISPLAY */
+
+.project {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    overflow: hidden;
+}
+
+.project-large {
+    background-image: url("https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1400&q=85");
+}
+
+.project-two {
+    background-image: url("https://images.unsplash.com/photo-1556912173-46c336c7fd55?auto=format&fit=crop&w=1200&q=85");
+}
+
+.project-three {
+    background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85");
+}
